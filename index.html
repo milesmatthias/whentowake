@@ -19,7 +19,6 @@
     }
 
     .time {
-      position: relative;
       width: 50%;
       height: 34%;
       background: #feffff; /* Old browsers */
@@ -43,9 +42,9 @@
     }
 
     .timeWrapper {
-      position: absolute;
-      margin-left: 30%;
-      top: 40%;
+      width: 1em;
+      margin: 0 auto;
+      margin-top: 30%;
     }
 
     .timeLbl {
@@ -101,8 +100,8 @@
       timeCtr++;
       var el = document.createElement('div'),
           timeDiv = document.createElement('div'),
-          lblTime = document.createElement('label'),
-          lblAmPm = document.createElement('label'),
+          lblTime = document.createElement('span'),
+          lblAmPm = document.createElement('span'),
           hrs = dateObj.getHours(),
           min = dateObj.getMinutes();
 
