@@ -108,7 +108,7 @@
       el.className = (timeCtr % 2 === 0) ? 'time right' : 'time left';
       timeDiv.className = 'timeWrapper';
       
-      lblTime.innerHTML = (hrs % 12) + ':' + (min < 10 ? '0' + min : min);
+      lblTime.innerHTML = (hrs % 12 !== 0 ? hrs % 12 : 12) + ':' + (min < 10 ? '0' + min : min);
       lblTime.className = 'timeLbl';
       timeDiv.appendChild(lblTime);
 
