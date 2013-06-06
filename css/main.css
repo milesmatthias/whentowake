@@ -1,13 +1,13 @@
 html, body {
   margin: 0;
   height: 100%;
-  background: #9cd67f;
+  background: white;
 }
 
 .time {
   width: 50%;
   height: 34%;
-  background: #9cd67f;
+  background: white;
 }
 
 .left {
@@ -19,9 +19,9 @@ html, body {
 }
 
 .timeLbl {
-  color: #a17cd2;
+  color: black;
 }
 
 .timeAmPm {
-  color: #e5b687;
+  color: #727272;
 }
