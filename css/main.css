@@ -19,9 +19,11 @@ html, body {
 }
 
 .timeLbl {
+  font-size: 6em;
   color: black;
 }
 
 .timeAmPm {
+  font-size: 2em;
   color: #727272;
 }
