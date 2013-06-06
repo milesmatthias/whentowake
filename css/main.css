@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #9cd67f;
+}
+
+.time {
+  width: 50%;
+  height: 34%;
+  background: #9cd67f;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.timeLbl {
+  color: #a17cd2;
+}
+
+.timeAmPm {
+  color: #e5b687;
+}
